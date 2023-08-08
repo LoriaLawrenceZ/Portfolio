@@ -13,6 +13,7 @@ header{
     background-color: white;
     position: sticky;
     top: 0;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.2);
 }
 
 .logo-container{
@@ -56,6 +57,7 @@ nav{
     font-family: 'REM', sans-serif;
     font-weight: 400;
     font-size: medium;
+    transition: all .3s;
 }
 
 /*-----===MAIN===-----*/
@@ -92,4 +94,9 @@ nav{
 .abtme-text{
     height: 100%;
     width: 40%;
+}
+
+/*-----===EFFECTS===-----*/
+.nav-content li a:hover{
+    color: slateblue;
 }
