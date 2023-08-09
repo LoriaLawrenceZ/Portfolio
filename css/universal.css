@@ -233,7 +233,7 @@ nav{
 }
 
 .hidden-km-btn, .hidden-cm-btn{
-    opacity: 0;
+    display: none;
     color: white;
     position: absolute;
     transform: translateY(100%);
@@ -274,6 +274,6 @@ nav{
 }
 .abtme-knowmore-btn:hover .hidden-km-btn,
 .abtme-contactme-btn:hover .hidden-cm-btn{
-    opacity: 1;
+    display: block;
     transform: translateX(0px);
 }
