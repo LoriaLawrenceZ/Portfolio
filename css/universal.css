@@ -37,7 +37,7 @@ header{
     align-items: center;
     justify-content: center;
     font-family: 'REM', sans-serif;
-    font-size: larger;
+    font-size: 36px;
 }
 /*--=NAV=--*/
 nav{
@@ -59,7 +59,7 @@ nav{
 .nav-content li a h2{
     color: rgb(25, 25, 25);
     font-family: 'REM', sans-serif;
-    transition: all .3s;
+    transition: all .25s;
     font-size: large;
 }
 
